@@ -32,6 +32,7 @@ public class Main {
         if ((!isRoman1 && isRoman2) || (isRoman1 && !isRoman2)) {
             throw new RuntimeException("Используются разные системы счисления.");
         }
+        System.out.printf("");
         if (isRoman1) {
             value1 = romanToArabic(variables[0]);
             value2 = romanToArabic(variables[1]);
